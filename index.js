@@ -6,7 +6,7 @@ app.listen(port, () => {
 })
 
 app.get('/', (req, res) => {
-    res.send("Hi mom!")
+    res.send("Hello from backend!")
 })
 
 module.exports = app;
